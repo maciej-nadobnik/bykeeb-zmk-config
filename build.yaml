@@ -6,7 +6,7 @@
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
 board: [ "seeeduino_xiao_ble" ]
-shield: [ "bykeeb_left", bykeeb_right" ]
+shield: [ "bykeeb_left", "bykeeb_right" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
