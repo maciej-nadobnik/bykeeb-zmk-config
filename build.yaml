@@ -5,7 +5,11 @@
 # pass flags to the build command, `snippet` to add a Zephyr snippet, and
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
-board: [ "seeeduino_xiao_ble" ]
-shield: [ "bykeeb_left", "bykeeb_right" ]
-include:
+# board: [ "seeeduino_xiao_ble" ]
+# shield: [ "bykeeb_left", "bykeeb_right" ]
 ---
+include:
+  - board: seeeduino_xiao_ble
+    shield: bykeeb_left
+  - board: seeeduino_xiao_ble
+    shield: bykeeb_right
